@@ -1,0 +1,11 @@
+insightface==0.2.1 
+onnxruntime 
+moviepy
+googledrivedownloader
+imageio==2.4.1
+gradio
+torch
+numpy
+Pillow
+torchvision
+opencv-python
