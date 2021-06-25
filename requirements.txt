@@ -9,3 +9,4 @@ numpy
 Pillow
 torchvision
 opencv-python
+torchtext
