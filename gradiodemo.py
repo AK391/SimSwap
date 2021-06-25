@@ -14,7 +14,7 @@ import gradio as gr
 import torchtext
 
 torchtext.utils.download_from_url("https://drive.google.com/uc?id=1TLNdIufzwesDbyr_nVTR7Zrx9oRHLM_N", root="./arcface_model/arcface_checkpoint.tar")
-torchtext.utils.download_from_url("https://drive.google.com/uc?id=1PXkRiBUYbu1xWpQyDEJvGKeqqUFthJcI", root="./checkpoints.zip")
+torchtext.utils.download_from_url("https://drive.google.com/uc?id=1PXkRiBUYbu1xWpQyDEJvGKeqqUFthJcI", root=".")
 torchtext.utils.extract_archive("./checkpoints.zip", "./checkpoints")
 torchtext.utils.download_from_url("https://drive.google.com/uc?id=1Ex4vpSB8E6juGG3kPMIhLRzx175rBdz-", root="./antelope.zip")
 torchtext.utils.extract_archive("./antelope.zip", "./insightface_func/models/")
